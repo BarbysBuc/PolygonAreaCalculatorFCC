@@ -34,14 +34,6 @@ class Rectangle:
         picture += '\n'  
       return picture  
 
-#  def get_amount_inside(self, another_shape):
-#    aux = self.height
-#    amount = 0
-#    if self.height >= another_shape.height and self.width >= another_shape.width:
-#      while aux >= another_shape.height:
-#        amount += self.width // another_shape.width
-#        aux = self.height - another_shape.height
-#    return amount  
   def get_amount_inside(self,shape):
     fieldWidth = self.width
     fieldHeight = self.height
